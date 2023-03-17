@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1300px;
+    padding-top: 45px;
+    padding-bottom: 65px;
+}
+.nav-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-logo img {
+    width: 140px;
+    cursor: pointer;
+}
+.nav-width ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 18px;
+}
+.nav-width ul li a {
+    text-decoration: none;
+    color: rgb(59, 57, 57);
+    transition: 0.1s;
+}
+.nav-width ul li a:hover {
+    color: white;
+    font-weight: 600;
+    padding: 8px 16px;
+    background-color: black;
+    border-radius: 10px;   
+}
+.carousel-item {
+    padding: 20px 40px;
+}
+.buy-now {
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 8px 25px;
+    background-color: black;
+    border-radius: 10px;
+}
+.cat {
+    display: flex;
+    justify-content: space-between;
+}
+.cat p {
+    color: rgb(255, 203, 31);
+    font-weight: 700;
+    cursor: pointer;
+}
+.card1, .card2, .card3 {
+    padding: 40px 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px lightgray;
+}
+.text-center p {
+    color: grey;
+}
+.special {
+    width: 90px;
+    border: 4px solid orange;
+    border-radius: 10px;
+    margin: auto;
+}
+.beauty-side {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+h5.cat-cent {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.cat1, .cat2, .cat3 {
+    text-align: center;
+    padding: 40px 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cat2 {
+    margin-top: 10px;
+}
+footer {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    color: rgb(65, 60, 60);
+}
+.beauty-side .pointer {
+    cursor: pointer;
+}
